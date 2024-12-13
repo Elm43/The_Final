@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Make the body fill the entire screen */
+        body {
+            display: flex;
+            justify-content: center; /* Center the container horizontally */
+            align-items: flex-start; /* Align items at the top of the container */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Optional, for better visual */
+            overflow: auto; /* Allow scrolling if content overflows */
+        }
+
+        /* Container to hold both the ordered list and the image */
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack the list and the image vertically */
+            align-items: center; /* Center items horizontally */
+            gap: 20px; /* Add space between the list and the image */
+            padding: 20px; /* Add padding to avoid the content touching the edges */
+            max-width: 90%; /* Set a max-width for the content */
+            overflow-y: auto; /* Allow vertical scrolling if content exceeds the viewport height */
+        }
+
+        /* Style for the ordered list */
+        ol {
+            padding: 0;
+            margin: 0;
+            list-style-type: decimal; /* Standard numbered list */
+            width: 100%; /* Allow the list to take full width */
+            max-height: 80vh; /* Set a max height for the list to allow scrolling */
+            overflow-y: auto; /* Add vertical scrolling for long lists */
+            font-size: 16px; /* Adjust font size for better readability */
+        }
+
+        /* Style for the unordered list (positions) */
+        ul {
+            list-style-type: none; /* Remove bullet points */
+            padding-left: 20px; /* Indent the position list */
+            margin: 0; /* Remove any default margins */
+        }
+
+        /* Style for the list items (team players and positions) */
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Style for the image */
+        img {
+            width: 100%; /* Make the image responsive */
+            max-width: 500px; /* Limit the maximum width of the image */
+            height: auto; /* Keep the aspect ratio of the image */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Ordered list for players -->
+        <ol>
+            <li>Alex Ovechkin
+                <ul>
+                    <li>(LW)</li>
+                </ul>
+            </li>
+            <li>Evgeny Kuznetsov
+                <ul>
+                    <li>(C)</li>
+                </ul>
+            </li>
+            <li>John Carlson
+                <ul>
+                    <li>(D)</li>
+                </ul>
+            </li>
+            <li>Tom Wilson
+                <ul>
+                    <li>(RW)</li>
+                </ul>
+            </li>
+            <li>Anthony Mantha
+                <ul>
+                    <li>(LW)</li>
+                </ul>
+            </li>
+            <li>Nicklas Backstrom
+                <ul>
+                    <li>(C)</li>
+                </ul>
+            </li>
+            <li>Conor Sheary
+                <ul>
+                    <li>(LW)</li>
+                </ul>
+            </li>
+            <li>T.J. Oshie
+                <ul>
+                    <li>(RW)</li>
+                </ul>
+            </li>
+            <li>Marcus Johansson
+                <ul>
+                    <li>(C/LW)</li>
+                </ul>
+            </li>
+            <li>Charlie Lindgren
+                <ul>
+                    <li>(C)</li>
+                </ul>
+            </li>
+            <li>Sonny Milano
+                <ul>
+                    <li>(LW)</li>
+                </ul>
+            </li>
+            <li>Nick Dowd
+                <ul>
+                    <li>(C)</li>
+                </ul>
+            </li>
+            <li>Garnet Hathaway
+                <ul>
+                    <li>(RW)</li>
+                </ul>
+            </li>
+            <li>Lars Eller
+                <ul>
+                    <li>(C)</li>
+                </ul>
+            </li>
+            <li>Beck Malenstyn
+                <ul>
+                    <li>(RW)</li>
+                </ul>
+            </li>
+            <li>Aliaksei Protas
+                <ul>
+                    <li>(C)</li>
+                </ul>
+            </li>
+            <li>Joe Snively
+                <ul>
+                    <li>(LW)</li>
+                </ul>
+            </li>
+            <li>Dmitry Orlov
+                <ul>
+                    <li>(LD)</li>
+                </ul>
+            </li>
+            <li>Trevor van Riemsdyk
+                <ul>
+                    <li>(RD)</li>
+                </ul>
+            </li>
+            <li>Martin Fehérváry
+                <ul>
+                    <li>(LD)</li>
+                </ul>
+            </li>
+            <li>Erik Gustafsson
+                <ul>
+                    <li>(LD)</li>
+                </ul>
+            </li>
+            <li>Nick Jensen
+                <ul>
+                    <li>(RD)</li>
+                </ul>
+            </li>
+            <li>Alexander Alexeyev
+                <ul>
+                    <li>(LD)</li>
+                </ul>
+            </li>
+            <li>Darcy Kuemper
+                <ul>
+                    <li>(G)</li>
+                </ul>
+            </li>
+            <li>Charlie Lindgren
+                <ul>
+                    <li>(G)</li>
+                </ul>
+            </li>
+        </ol>
+
+        <!-- Image -->
+        <img src="../class/images/headline-capitals-team-photo-aland-4469.webp" alt="faceoff">
+    </div>
+
+</body>
+</html>

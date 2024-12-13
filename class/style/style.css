@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    background-color: rgb(169, 169, 169);
+    color: rgb(34, 61, 113);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0; /* Remove default margin to avoid page cut-off */
+    padding: 0; /* Remove default padding */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(184, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Global link styles - no underline by default */
+/* Default link style: blue color */
+a {
+    color: rgb(70, 115, 205); /* Blue color */
+    text-decoration: none; /* Remove underline from all links by default */
+}
+
+/* Sidebar links: white color */
+.sidebar a {
+    color: white; /* White color for links in the sidebar */
+}
+
+/* Sidebar links hover effect */
+.sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Default links hover effect */
+a:hover {
+    text-decoration: underline; /* Underline on hover for all other links */
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    background-color: rgb(184, 0, 0);
+    width: 150px; /* Set sidebar width */
+    padding: 15px;
+    position: fixed; /* Fix the sidebar in place */
+    top: 0; /* Start from the top of the page */
+    left: 0;
+    bottom: 0; /* Ensure it ends after the last link */
+    height: 100%; /* Full viewport height */
+    overflow-y: auto; /* Scroll if content overflows */
+    z-index: 100; /* Ensure the sidebar is on top */
+}
+
+/* Sidebar list item styles */
+.sidebar ul li {
+    list-style: none; /* Remove default list styling */
+    margin-bottom: 10px; /* Optional: add space between list items */
+}
+
+/* Add hover effect for links in the sidebar */
+.sidebar ul li a:hover {
+    color: white;
+    text-decoration: underline; /* Underline only on hover */
+}
+
+/* Navbar styles */
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+/* Navbar link styles */
+.navbar a {
+    color: rgb(70, 115, 205);
+    text-decoration: none; /* Remove underline by default */
+}
+
+/* Add hover effect for links in the navbar */
+.navbar a:hover {
+    text-decoration: underline; /* Underline only on hover */
+}
+
+/* Main content styles */
+.main-content {
+    margin-left: 170px; 
+    padding: 20px;
+    width: calc(100% - 170px); 
+    box-sizing: border-box; 
+    height: 100vh; 
+    overflow: auto; 
+}
+
+
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
